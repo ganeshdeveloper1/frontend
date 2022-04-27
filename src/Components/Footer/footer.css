@@ -1,0 +1,40 @@
+.footer {
+  padding: 20px;
+  background-color: rgb(86, 81, 81);
+}
+
+.footer,
+.alignRight {
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  width: 30rem;
+  height: 10rem;
+  padding-left: 10px;
+}
+
+.footer ul {
+  margin-right: 70px;
+}
+
+.footer-item {
+  list-style: none;
+  margin: 25px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.footer-item a:hover {
+  color: rgb(231, 216, 123);
+}
+
+.alignRight {
+  margin-left: auto;
+}
